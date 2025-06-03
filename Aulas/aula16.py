@@ -29,5 +29,5 @@ Depois que termina, imprime: "Comi muito!".
 
 a = (2, 5, 4)
 b = (5, 8 , 1, 2)
-c = a + b
-print(sorted(c))
+c = a + b #Tuplas podem ser concatenadas com +.
+print(sorted(c))  #Para ordenar, usamos sorted(), que devolve uma lista ordenada.
