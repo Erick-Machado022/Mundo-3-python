@@ -12,8 +12,7 @@ while True:
         cont += 1
     else:
         print('Número já está dentro da lista.')
-    
-
+        
     print('-'*40)
     continuar = str(input('Deseja continuar? [S/N]')).upper().strip()[0]
     print('-'*40)
