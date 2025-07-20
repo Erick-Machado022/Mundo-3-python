@@ -19,4 +19,5 @@ while total_jogos <= quant:
     total_jogos +=1
 print('-='*3, f' SORTEANDO {quant} DE JOGOS', '-='*3)
 for i, l in enumerate(jogos):
-    print(f'Resultado do {i+1}º jogo: {jogos}')
+    print(f'Resultado do {i+1}º jogo: {l}')
+    sleep(1)
