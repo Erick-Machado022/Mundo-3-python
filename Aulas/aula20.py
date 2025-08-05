@@ -1,11 +1,9 @@
-def mostrarLinha():  # Função que imprime uma linha com 40 traços
-    print('-'*40)
+def mensagem(txt):
+    print('-'*30)
+    print(f'{txt:^30}')
+    print('-'*30)
 
 
-mostrarLinha() # Exibe uma linha separadora
-print(f'{"SISTEMA DE ALUNOS":^40}')
-mostrarLinha()
-print(f'{"CADASTRO DE ALUNOS":^40}')
-mostrarLinha()
-print(f'{"ERRO SISTEMA":^40}')
-mostrarLinha()
+mensagem('CURSO EM VIDEO')
+mensagem('APRENDA PYTHON')
+mensagem('ERICK MACHADO')
