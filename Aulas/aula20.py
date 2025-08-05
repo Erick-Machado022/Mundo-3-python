@@ -1,8 +1,7 @@
-def soma(a, b):
-    s = a + b
-    print(f'A soma de {a} + {b} é {s}')
+def contador(*num):
+    tam = len(num)
+    print(f'Recebi os valores {num} e ao total são {tam} números')
 
-
-soma(4, 5)
-soma(8, 9)
-soma(2, 1)
+contador(2, 1 ,7)
+contador(8, 0 )
+contador(4, 4, 6, 7)
